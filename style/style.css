@@ -1,0 +1,317 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Helvetica-Bold';
+    font-style: normal;
+    font-weight: 700;
+    src: url('/fonts/helvetica_bold.otf') format('otf');
+}
+@font-face {
+    font-family: 'Helvetica-Regular';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/fonts/helvetica_regular.otf') format('otf');
+}
+@font-face {
+    font-family: 'Helvetica-Light';
+    font-style: normal;
+    font-weight: 300;
+    src: url('/fonts/helvetica_light.otf') format('otf');
+}
+@font-face {
+    font-family: 'Zuume';
+    src: local('Zuume Bold'), local('Zuume-Bold'),
+        url('/fonts/Zuume-Bold.woff2') format('woff2'),
+        url('/fonts/Zuume-Bold.woff') format('woff'),
+        url('/fonts/Zuume-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+body {
+    background-color: #0C0C0C;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.header {
+
+}
+.header__container {
+    max-width: 1440px;
+    height: 975px;
+    margin: 0 auto;
+    background:
+    url('/img/header__sculptur.png') center / 861px 861px,
+    url('/img/blurred__circle.png') center top 400px / 1427px 861px;
+    background-position: center top 114px;
+    background-repeat: no-repeat;
+
+}
+.header__top {
+    margin-top: 45px;
+    margin-bottom: 114px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.title {
+    margin-right: 500px;
+    width: 45px;
+    height: 40px;
+    color: #D9D9D9;
+    font-family: Zuume;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 79%;
+}
+.list {
+    display: flex;
+    justify-content: space-between;
+}
+.list__item {
+    color: #D9D9D9;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.list__item + .list__item {
+    margin-left: 111px;
+}
+.explore-world {
+    color: #D9D9D9;
+    font-family: Helvetica;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.text-container-sculptures {
+    display: flex;
+    align-items: flex-end;
+}
+.classic-sculptures {
+    color: #B5964D;
+    font-family: Helvetica;
+    font-size: 66px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.dot-img {
+    display: flex;
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+    margin-bottom: 14px;
+}
+.text-container-one {
+    display: flex;
+    width: 246px;
+    height: 26px;
+    margin-top: 160px;
+    margin-left: 336px;
+}
+.text-container-two {
+    display: flex;
+    width: 259px;
+    height: 26px;
+    margin-top: 330px;
+    margin-left: 174px;
+}
+.text-container-three {
+    display: flex;
+    width: 219px;
+    height: 26px;
+    margin-top: 44px;
+    margin-left: 1068px;
+}
+.header-text {
+    color: #D9D9D9;
+    text-shadow: 0px 4px 4px #000;
+    font-family: Helvetica;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.mini__dot-img {
+    width: 7px;
+    height: 7px;
+    margin-top: 3px;
+    margin-right: 5px;
+}
+.text-container-description {
+    width: 420px;
+    height: 104px;
+    margin-top: -536px;
+    margin-left: 850px;
+}
+.description__decor-img {
+    width: 40px;
+    height: 13px;
+    margin-bottom: 10px;
+}
+.header-text-description {
+    color: #D9D9D9;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+/*  */
+
+.sculpture-description {
+    
+
+}
+.background {
+    background-image: url(/img/sculpture-description-decor.svg);
+    background-repeat: no-repeat;
+} 
+.container__sculpture {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+}
+.sculpture-description {
+    margin-right: 50px;
+    margin-bottom: 230px;
+}
+.sculpture-description-container-one {
+    width: 252px;
+    margin-top: 248px;
+    margin-left: -10px;
+}
+.sculpture-description-container-two {
+    width: 183px;
+    margin-top: 120px;
+}
+.sculpture-description-container-three {
+    width: 223px;
+    margin-top: 218px;
+}
+.sculpture-description-container-four {
+    width: 183px;
+    margin-top: 324px;
+}
+.sculpture-description-container-five {
+    width: 183px;
+    margin-top: 68px;
+}
+.sculpture-description-container-six {
+    width: 183px;
+    margin-top: 222px;
+}
+.sculpture-text-description {
+    margin: 0 auto;
+    width: 184px;
+}
+.title__description {
+    margin: 0 auto;
+    margin-bottom: 7px;
+    width: 184px;
+    color: #B5964D;
+    font-family: Helvetica;
+    font-size: 12.5px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.text__description {
+    margin: 0 auto;
+    width: 184px;
+    color: #D9D9D9;
+    font-family: Helvetica;
+    font-size: 10.5px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.text__description.two {
+    margin-bottom: 20px;
+}
+.text__description.three {
+    margin-bottom: 36px;
+}
+.text__description.four {
+    margin-bottom: 10px;
+}
+.text__description.five {
+    margin-bottom: 10px;
+}
+.text__description.six {
+    margin-bottom: 20px;
+}
+.sculpture__one-img {
+    width: 252px;
+    height: 184px;
+    margin-top: -8px;
+}
+.sculpture__two-img {
+    display: flex;
+    margin: 0 auto;
+    width: 125px;
+    height: 224px;  
+}
+.sculpture__three-img {
+    width: 223px;
+    height: 148px;
+}
+.sculpture__four-img {
+    width: 167px;
+    height: 186px;
+}
+.sculpture__five-img {
+    display: flex;
+    margin: 0 auto;
+    width: 166px;
+    height: 264px;
+}
+.sculpture__six-img {
+    width: 183px;
+    height: 134px;
+}
+.line-img {
+    display: flex;
+    margin: 0 auto;
+    position: relative;
+    z-index: -1;
+}
+.line__one-img {
+    margin-top: -4px;
+}
+.line__two-img {
+    margin-top: -46px;
+}
+.line__three-img {
+    margin-top: -63px;
+}
+.line__four-img {
+    margin-top: -34px;
+}
+.line__five-img {
+    margin-top: -77px;
+}
+.line__six-img {
+    margin-top: -34px;
+}
+.line__main-img {
+    width: auto;
+    height: 3px;
+    display: flex;
+    position: relative;
+    z-index: -1;
+    margin-top: 830px;
+    margin-left: -1497px;
+}
+
+
