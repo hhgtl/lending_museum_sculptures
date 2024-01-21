@@ -184,7 +184,7 @@ a {
 }
 .sculpture-description {
     margin-right: 50px;
-    margin-bottom: 230px;
+    margin-bottom: 115px;
 }
 .sculpture-description-container-one {
     width: 252px;
@@ -314,4 +314,122 @@ a {
     margin-left: -1497px;
 }
 
+/*  */
+.historic__museum {
+    margin-bottom: 215px;
+}
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
 
+.historic__museum__inner {
+}
+
+.title__historic__museum {
+    color: #B5964D;
+    font-family: Helvetica;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.title__sub-text {
+    color: #D9D9D9;
+    font-family: Helvetica;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+.museum-text__description {
+    width: auto;
+    color: #D9D9D9;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+.text__descr_decor {
+    color: #B5964D;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+/*  */
+
+.title__sub-text.faqs {
+    text-transform: uppercase;
+    margin-bottom: 66px;
+}
+.faqs__container {
+    max-width: 678px;
+}
+
+/*  */
+
+.footer__container {
+    max-width: 980px;
+    height: 300px;
+    margin: 0 auto;
+}
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.openong__hours__container {
+    width: 235px;
+    height: 80px;
+}
+.opening__hours {
+    color: #B5964D;
+    font-family: Helvetica;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 15px;
+}
+.hours-text {
+    color: #D9D9D9;
+    font-family: Helvetica;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.copyrighted {
+    margin-top: 260px;
+    color: #D9D9D9;
+    font-family: Helvetica;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.name__autor {
+    
+    color: #B5964D;
+    font-family: Helvetica;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.list__messenger {
+    display: flex;
+}
+.list__messenger__item {
+    margin-right: 30px;
+}
+.list__img {
+    width: 40px;
+    height: 40px;
+}
