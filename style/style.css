@@ -37,9 +37,7 @@ a {
     text-decoration: none;
     color: inherit;
 }
-.header {
-
-}
+/* Header */
 .header__container {
     max-width: 1440px;
     height: 975px;
@@ -167,12 +165,8 @@ a {
     line-height: normal;
 }
 
-/*  */
+/* Sculpture description */
 
-.sculpture-description {
-    
-
-}
 .background {
     background-image: url(/img/sculpture-description-decor.svg);
     background-repeat: no-repeat;
@@ -314,16 +308,13 @@ a {
     margin-left: -1497px;
 }
 
-/*  */
+/* Caeser Historic Museum About */
 .historic__museum {
     margin-bottom: 215px;
 }
 .container {
     max-width: 1080px;
     margin: 0 auto;
-}
-
-.historic__museum__inner {
 }
 
 .title__historic__museum {
@@ -362,17 +353,78 @@ a {
     line-height: normal;
 }
 
-/*  */
-
+/* Caeser Historic Museum FAQS */
+.faqs__container {
+    width: 678px;
+    margin: 0 auto;
+}
+.title__historic__museum {
+    color: #B5964D;
+    font-family: Helvetica;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.title__sub-text {
+    color: #D9D9D9;
+    font-family: Helvetica;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-bottom: 30px;
+}
 .title__sub-text.faqs {
     text-transform: uppercase;
     margin-bottom: 66px;
 }
-.faqs__container {
-    max-width: 678px;
+
+
+.acordeon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.acordeon__title-text {
+    color: #B5964D;
+    font-family: "IBM Plex Sans";
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+.acordeon-img.animate-start {
+    transform: rotate(90deg);
+    transition: all 0.3s;
+}
+.acordeon-img.animate-end {
+    transform: rotate(0deg);
+    transition: all 0.3s;
+}
+.acordeon__content {
+    margin-bottom: 16px;
+    transition: all 0.3s;
+    max-height: 0;
+    overflow: hidden;
+}
+.acordeon__content.show  {
+    margin-bottom: 50px;
+}
+.acordeon-text {
+    color: #D9D9D9;
+    font-family: "IBM Plex Sans";
+    font-weight: 600;
+    font-size: 19.2px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
-/*  */
+
+/* Footer */
 
 .footer__container {
     max-width: 980px;
@@ -432,50 +484,4 @@ a {
 .list__img {
     width: 40px;
     height: 40px;
-}
-
-.faqs__container {
-    width: 678px;
-    margin: 0 auto;
-}
-.acordeon {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    cursor: pointer;
-}
-.acordeon__title-text {
-    color: #B5964D;
-    font-family: "IBM Plex Sans";
-    font-size: 23px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    margin-bottom: 20px;
-}
-.acordeon-img.animate-start {
-    transform: rotate(90deg);
-    transition: all 0.3s;
-}
-.acordeon-img.animate-end {
-    transform: rotate(0deg);
-    transition: all 0.3s;
-}
-.acordeon__content {
-    margin-bottom: 16px;
-    transition: all 0.3s;
-    max-height: 0;
-    overflow: hidden;
-}
-.acordeon__content.show  {
-    margin-bottom: 50px;
-}
-.acordeon-text {
-    color: #D9D9D9;
-    font-family: "IBM Plex Sans";
-    font-weight: 600;
-    font-size: 19.2px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
 }
